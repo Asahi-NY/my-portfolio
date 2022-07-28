@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export const About = () => {
@@ -23,7 +24,13 @@ export const About = () => {
           </p>
         </div>
         <div className=" m-auto flex h-auto w-full items-center justify-center rounded-xl p-4 shadow-gray-400 duration-300 ease-in hover:scale-105">
-          <img className=" rounded-xl" src="/assets/ABOUT.jpg" alt="/" width="1080px" height="840px"/>
+          <Image
+            className=" rounded-xl"
+            src="/assets/ABOUT.JPG"
+            alt="/"
+            width="1080px"
+            height="840px"
+          />
         </div>
       </div>
     </div>
