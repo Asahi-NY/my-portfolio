@@ -26,10 +26,10 @@ export const About = () => {
         <div className=" m-auto flex h-auto w-full items-center justify-center rounded-xl p-4 shadow-gray-400 duration-300 ease-in hover:scale-105">
           <Image
             className=" rounded-xl"
-            src="/assets/ABOUT.JPG"
+            src="/assets/about2.jpg"
             alt="/"
             width="1080px"
-            height="840px"
+            height="719px"
           />
         </div>
       </div>
