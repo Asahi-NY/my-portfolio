@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import portfolioImg from "../../public/assets/projects/Myportfolio.png";
+import portfolioImg from "../../public/assets/projects/portfolio.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const property = () => {
+const Portfolio = () => {
   return (
     <div className="w-full">
       <div className="relative h-[50vh] w-screen">
@@ -27,13 +27,22 @@ const property = () => {
           <p>Project</p>
           <h2 className="py-2">Overview</h2>
           <p>
-          このアプリはReact JSを使用して構築され、Github経由でVercelにデプロイされています。
-          なお、スタイリングはTailwind CSSを使用しております。（今後更にカスタマイズ予定）
+            このアプリはReact
+            JSを使用して構築され、Github経由でVercelにデプロイされています。
+            なお、スタイリングはTailwind
+            CSSを使用しております。（今後更にカスタマイズ予定）
           </p>
 
-          <button className=" mt-4 mr-8 px-8 py-2">Demo</button>
-          <button className=" mt-4 px-8 py-2">Code</button>
-          
+          <a href="/" target="_blank" rel="noreferrer">
+            <button className=" mt-4 mr-8 px-8 py-2">Demo</button>
+          </a>
+          <a
+            href="https://github.com/Asahi-NY/my-portfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className=" mt-4 px-8 py-2">Code</button>
+          </a>
         </div>
         <div className=" col-span-4 rounded-xl p-4 shadow-xl shadow-gray-400 md:col-span-1">
           <div className=" p-2">
@@ -59,10 +68,6 @@ const property = () => {
                 <RiRadioButtonFill className="pr-1" />
                 Vercel
               </p>
-              {/* <p className=" flex items-center py-2 text-gray-600">
-                <RiRadioButtonFill className="pr-1" />
-                Zillow API
-              </p> */}
             </div>
           </div>
         </div>
@@ -74,4 +79,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default Portfolio;

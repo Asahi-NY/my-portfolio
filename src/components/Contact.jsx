@@ -1,8 +1,5 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import { AiOutlineMail, AiOutlineTwitter } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 export const Contact = () => {
   const [name, setName] = useState("");

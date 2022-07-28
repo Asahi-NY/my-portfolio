@@ -1,10 +1,6 @@
 import React from "react";
 import { ProjectItem } from "src/components/ProjectItem";
-import portfolioImg from "../../public/assets/projects/Myportfolio.png";
-import propertyImg from "../../public/assets/projects/property.jpg";
-import cryptoImg from "../../public/assets/projects/crypto.jpg";
-import netflixImg from "../../public/assets/projects/netflix.jpg";
-import twitchImg from "../../public/assets/projects/twitch.jpg";
+import portfolioImg from "../../public/assets/projects/portfolio.png";
 
 export const Projects = () => {
   return (
@@ -21,30 +17,6 @@ export const Projects = () => {
             projectUrl="/portfolio"
             tech="React JS"
           />
-          {/* <ProjectItem
-            title="Property Finder"
-            backgroundImg={propertyImg}
-            projectUrl="/property"
-            tech="React JS"
-          /> */}
-          {/* <ProjectItem
-            title="Crypto App"
-            backgroundImg={cryptoImg}
-            projectUrl="/crypto"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Netflix App"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Twitch UI"
-            backgroundImg={twitchImg}
-            projectUrl="/twitch"
-            tech="Next JS"
-          /> */}
         </div>
       </div>
     </div>

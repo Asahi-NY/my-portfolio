@@ -59,7 +59,6 @@ export const Navbar = () => {
     >
       <div className="flex h-full w-full items-center justify-between px-2 2xl:px-16">
         <Link href="/">
-          {/* <Image src="/assets/navLogo.png" alt="/" width="125" height="50" /> */}
           <h3
             className=" cursor-pointer hover:border-b hover:opacity-70"
             style={{ color: `${linkColor}` }}
@@ -85,11 +84,6 @@ export const Navbar = () => {
                 Projects
               </li>
             </Link>
-            {/* <Link href="/#contact">
-              <li className=" ml-10 text-sm uppercase hover:border-b">
-                Contact
-              </li>
-            </Link> */}
           </ul>
           <div
             style={{ color: `${linkColor}` }}
@@ -111,14 +105,6 @@ export const Navbar = () => {
           }
         >
           <div className=" flex w-full items-center justify-between">
-            {/* <Link href="/">
-              <Image
-                src="/assets/navLogo.png"
-                alt="/"
-                width="87"
-                height="35"
-              ></Image>
-            </Link> */}
             <div
               onClick={handleNav}
               className=" cursor-pointer rounded-full p-3 shadow-lg shadow-gray-400"
@@ -126,7 +112,6 @@ export const Navbar = () => {
               <AiOutlineClose />
             </div>
           </div>
-          {/* <div className="my-4 border-b border-gray-300"></div> */}
           <div className=" flex flex-col py-4">
             <ul className=" uppercase">
               <Link href="/">
@@ -149,11 +134,6 @@ export const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              {/* <Link href="/#contact">
-                <li onClick={() => setNav(false)} className=" py-4 text-sm">
-                  Contact
-                </li>
-              </Link> */}
             </ul>
             <div className=" pt-4">
               <p className=" uppercase tracking-widest text-[#5651e5]">
