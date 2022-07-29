@@ -3,7 +3,7 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div id="about" className=" flex w-full items-center p-2 py-4">
+    <div id="about" className=" flex w-full items-center p-2 py-16">
       <div className="m-auto max-w-[1240px] grid-cols-3 gap-8 md:grid">
         <div className="col-span-2">
           <p className=" pt-4 text-xl font-bold uppercase tracking-widest text-[#5651e5]">
